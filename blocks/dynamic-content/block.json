@@ -1,0 +1,22 @@
+{
+  "apiVersion": 2,
+  "name": "tcp/dynamic-content",
+  "title": "Dynamic Content (Marketo Segment)",
+  "description": "Personalized content that swaps copy based on the visitor's Marketo Web Segment.",
+  "category": "widgets",
+  "icon": "admin-site",
+  "attributes": {
+    "content": {
+      "type": "object",
+      "default": {}
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "editorScript": [
+    "file:./save.js",
+    "file:./edit.js"
+  ],
+  "style": "file:./style.css"
+}

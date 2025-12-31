@@ -1,0 +1,38 @@
+.mp-dynamic .mp-seg,
+.tcp-dynamic .tcp-seg {
+    display: none;
+}
+
+.mp-dynamic .mp-seg.is-active,
+.tcp-dynamic .tcp-seg.is-active {
+    display: block;
+}
+
+.mp-dynamic .mp-seg h2,
+.tcp-dynamic .tcp-seg h2 {
+    margin-bottom: 0.25em;
+}
+
+.mp-dynamic .mp-seg p,
+.tcp-dynamic .tcp-seg p {
+    margin-top: 0;
+    margin-bottom: 0.75em;
+}
+
+.mp-dynamic .mp-seg .btn,
+.tcp-dynamic .tcp-seg .btn {
+    display: inline-block;
+    padding: 0.55em 1.25em;
+    border-radius: 4px;
+    background: #1e73be;
+    color: #fff;
+    text-decoration: none;
+}
+
+.mp-dynamic .mp-seg .btn:hover,
+.tcp-dynamic .tcp-seg .btn:hover,
+.mp-dynamic .mp-seg .btn:focus,
+.tcp-dynamic .tcp-seg .btn:focus {
+    background: #165a92;
+    color: #fff;
+}
